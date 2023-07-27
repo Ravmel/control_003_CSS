@@ -7,7 +7,9 @@
 }
 
 body {
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
 }
@@ -58,17 +60,13 @@ body {
   text-align: center;
 }
 
-.footer-sedan :hover{
+.footer-sedan :hover {
   border: 2px solid hsl(0, 0%, 95%);
   border-radius: 50px;
   background-color: hsl(31, 77%, 52%);
   color: hsl(0, 0%, 95%);
   height: 3rem;
   cursor: pointer;
-  /*width: 10rem;*/
-  /*margin-top: 6rem;*/
-  /*margin-left: 3rem;*/
-  /*text-align: center;*/
 }
 
 .footer-sedan-word {
@@ -113,7 +111,7 @@ body {
   text-align: center;
 }
 
-.footer-suvs :hover{
+.footer-suvs :hover {
   border: 2px solid hsl(0, 0%, 95%);
   border-radius: 50px;
   background-color: hsl(184, 100%, 22%);
@@ -165,7 +163,7 @@ body {
   text-align: center;
 }
 
-.footer-luxury :hover{
+.footer-luxury :hover {
   border: 2px solid hsl(0, 0%, 95%);
   border-radius: 50px;
   background-color: hsl(179, 100%, 13%);
