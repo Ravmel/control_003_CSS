@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  height: 34rem;
+  width: 65rem;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.icon-sedan {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-sedan {
+  border-radius: 10px 0px 0px 10px;
+  background-color: hsl(31, 77%, 52%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.header-sedan {
+  font-family: "Big Shoulders Display", "cursive";
+  font-size: 22px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  padding-right: 20%;
+}
+
+.body-sedan {
+  margin-left: 3rem;
+  padding-right: 20%;
+  margin-top: 3rem;
+  font-size: 15px;
+}
+
+.footer-sedan {
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  height: 3rem;
+  width: 10rem;
+  margin-top: 6rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+.footer-sedan-word {
+  padding-top: 1rem;
+}
+
+/********SUVS********/
+
+.icon-suvs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-suvs {
+  background-color: hsl(184, 100%, 22%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.header-suvs {
+  font-family: "Big Shoulders Display", "cursive";
+  font-size: 22px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  padding-right: 20%;
+}
+
+.body-suvs {
+  margin-left: 3rem;
+  padding-right: 20%;
+  margin-top: 3rem;
+  font-size: 15px;
+}
+
+.footer-suvs {
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  height: 3rem;
+  width: 10rem;
+  margin-top: 6rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+.footer-suvs-word {
+  padding-top: 1rem;
+}
+
+/*************Luxury*******/
+
+.icon-luxury {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-luxury {
+  border-radius: 0px 10px 10px 0px;
+  background-color: hsl(179, 100%, 13%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.header-luxury {
+  font-family: "Big Shoulders Display", "cursive";
+  font-size: 22px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  padding-right: 20%;
+}
+
+.body-luxury {
+  margin-left: 3rem;
+  padding-right: 20%;
+  margin-top: 3rem;
+  font-size: 15px;
+}
+
+.footer-luxury {
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  height: 3rem;
+  width: 10rem;
+  margin-top: 6rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+.footer-luxury-word {
+  padding-top: 1rem;
+}
